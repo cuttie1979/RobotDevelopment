@@ -1,3 +1,2 @@
 rpaframework==13.2.0
 rpaframework-excel==0.1.0
-pip 

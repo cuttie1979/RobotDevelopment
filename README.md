@@ -10,6 +10,14 @@ Create environment for your robot with the following line:
 
 Answer yes from the question
 
+Activate the python environment
+
+    conda activate robotenv
+
+Install dependent packages
+
+    pip install --force-reinstall -r <pull here requirements.txt>  
+
 Once it completed we can use it in Visual Studio Code:
 CTRL+SHIFT+P
 Select python interpreter, and choose the newly created environment. For each robot it would be good to use separate environment
@@ -20,6 +28,7 @@ Next is the robot program file e.g. robot.py what is the robot
 Documentation is our good friend, it helps to understand how different functions work:
 
 https://robocorp.com/docs/development-guide/excel
+
 https://rpaframework.org/libraries/desktop/
 
 We will use in this example the robocorp framework, but based on the tasks we can use more

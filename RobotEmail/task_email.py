@@ -10,7 +10,7 @@ import time
 
 desktop = Desktop()
 
-desktop.click(locator="point:240,1070")
+desktop.click(locator="point:420,1060")
 time.sleep(1)
 desktop.press_keys('cmd','n')
 time.sleep(1)
@@ -24,6 +24,7 @@ desktop.type_text('This is a test email from Laszlo\'s robot\n' +
                   'Have a great day!\n' + 
                   '\n' +
                   '        Laszlo')
+
 desktop.press_keys('cmd','e')
 time.sleep(1)
 desktop.click(locator="point:550,510")
