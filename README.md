@@ -5,9 +5,10 @@ Install Anaconda3 from the following link: https://www.anaconda.com/
 
 Once installed we need to open a command prompt (search for cmd on Windows or Terminal on Mac)
 Create environment for your robot with the following line:
+    
     conda create --name robotdevelopment python=3.10
 
-    Answer yes from the question
+Answer yes from the question
 
 Once it completed we can use it in Visual Studio Code:
 CTRL+SHIFT+P
@@ -17,6 +18,7 @@ We use two files for the development, one is requirements.txt where we list all 
 Next is the robot program file e.g. robot.py what is the robot 
 
 Documentation is our good friend, it helps to understand how different functions work:
+
 https://robocorp.com/docs/development-guide/excel
 https://rpaframework.org/libraries/desktop/
 
